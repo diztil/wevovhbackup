@@ -127,7 +127,7 @@ a {
   transition: 0.1s;
   opacity: 0.5;
 }
-.btn-icon {
+.btn-icon, .btn-img {
   flex: 5%;
   float: left;
   font-size: 1rem;
@@ -337,9 +337,9 @@ a {
   opacity: 0.8;
 }
 
-  .tooltip .tooltiptext {
+.tooltip .tooltiptext {
     font-size: 1vw;
-  }
+}
 
   
 .fa-brands,.fa-solid, .fa-regular {
@@ -369,7 +369,7 @@ a {
   transition: 0.1s;
   opacity: 0.5;
 }
-  .btn-icon {
+.btn-img {
     flex: 5%;
     float: left;
     font-size: 1rem;
@@ -377,6 +377,12 @@ a {
     color: #fff;
     width: 5rem;
     border-radius: 12px;
+  }
+.btn-icon {
+    flex: 5%;
+    float: left;
+    font-size: 2rem;
+    color: #fff;
   }
 .btn-text {
   flex: 85%;
