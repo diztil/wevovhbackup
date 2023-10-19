@@ -79,6 +79,43 @@ a {
   opacity: 0.8;
 }
 
+.fa-stack, .small{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0.5rem;
+  font-size: 0rem;
+  padding: 1.0rem;
+}
+.verif{
+  font-size: 1.6rem;
+  color: #00b3ff;
+  position: flex;
+}
+.verif-check{
+  font-size: 1.6rem;
+  z-index: 2;
+  scale: 0.6;
+}
+.verif:hover,.verif-check:hover{
+  opacity: 0.8;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 3;
+  background-color: #00b3ff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 4vw;
+  border-radius: 6px;
+  padding: 0.6rem;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .fa-brands,
 .fa-solid,
 .fa-regular {
@@ -344,6 +381,11 @@ footer:hover {
     opacity: 0.8;
   }
 
+  .tooltip .tooltiptext {
+    font-size: 1vw;
+  }
+
+  
   .fa-brands,
   .fa-solid,
   .fa-regular {

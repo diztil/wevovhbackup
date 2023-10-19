@@ -15,15 +15,15 @@
   <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
   <script src="https://rawgit.com/rdub80/aframe-gui/master/dist/aframe-gui.min.js"></script>
-  <div data-video="yinAK4FO4ck" data-autoplay="1" data-loop="1" id="youtube-audio">
-  </div>
   <script src="https://www.youtube.com/iframe_api"></script>
   <script src="/assets/ytaudioembed.js"></script>
 </head>
 
 
 
-<body>
+<body onload="onYouTubeIframeAPIReady()">
+  <div data-video="yinAK4FO4ck" data-autoplay="1" data-loop="1" id="youtube-audio">
+  </div>
   <!-- SCENE -->
   <a-scene vr-mode-ui="enabled: true;" loading-screen="enabled: false;" color: #ffffff>
     <!-- ASSETS -->
