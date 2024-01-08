@@ -1,0 +1,154 @@
+;;
+;; Domain:     wev.ovh.
+;; Exported:   2023-10-21 14:45:54
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+wev.ovh	3600	IN	SOA	scott.ns.cloudflare.com dns.cloudflare.com 2044956615 10000 2400 604800 3600
+
+;; NS Records
+wev.ovh.	86400	IN	NS	scott.ns.cloudflare.com.
+wev.ovh.	86400	IN	NS	yolanda.ns.cloudflare.com.
+
+;; A Records
+cs.wev.ovh.	1	IN	A	134.153.48.5
+wev.ovh.	1	IN	A	34.132.134.162
+
+;; CNAME Records
+101domain.wev.ovh.	1	IN	CNAME	101domain.com.
+abb.wev.ovh.	1	IN	CNAME	abb.com.
+aemlbd.wev.ovh.	1	IN	CNAME	aemlbd.com.
+aisekrishi.wev.ovh.	1	IN	CNAME	aisekrishi.org.
+alpha.wev.ovh.	1	IN	CNAME	alpha.net.bd.
+amrella.wev.ovh.	1	IN	CNAME	dmkto.github.io.
+asenturisk.wev.ovh.	1	IN	CNAME	hashnode.network.
+aub.wev.ovh.	1	IN	CNAME	aub.ac.bd.
+autoconfig.wev.ovh.	1	IN	CNAME	mailconfig.ovh.net.
+autodiscover.wev.ovh.	1	IN	CNAME	mailconfig.ovh.net.
+bb.wev.ovh.	1	IN	CNAME	bb.org.bd.
+bdgs.wev.ovh.	1	IN	CNAME	bdgs.cloud.
+bdjobs.wev.ovh.	1	IN	CNAME	bdjobs.com.
+bdsmefinancing.wev.ovh.	1	IN	CNAME	bdsmefinancing.com.
+bd.wev.ovh.	1	IN	CNAME	bd.com.
+blog.wev.ovh.	1	IN	CNAME	hashnode.network.
+bloodnbeyond.wev.ovh.	1	IN	CNAME	bloodnbeyond.com.
+buft.wev.ovh.	1	IN	CNAME	buft.edu.bd.
+bup.wev.ovh.	1	IN	CNAME	bup.edu.bd.
+buytickets.wev.ovh.	1	IN	CNAME	buytickets.com.bd.
+capmfunds.wev.ovh.	1	IN	CNAME	capmfunds.com.
+catbox.wev.ovh.	1	IN	CNAME	catbox.moe.
+cdn.wev.ovh.	1	IN	CNAME	1af883f9-8343-4153-995a-21ac036dcd1b.id.repl.co.
+chatgpt.wev.ovh.	1	IN	CNAME	chat.openai.com.
+cinehub24.wev.ovh.	1	IN	CNAME	cinehub24.com.
+control7.wev.ovh.	1	IN	CNAME	control7.net.
+creativeitinstitute.wev.ovh.	1	IN	CNAME	creativeitinstitute.com.
+cryptotech.wev.ovh.	1	IN	CNAME	cryptotech.com.bd.
+cse.wev.ovh.	1	IN	CNAME	cse.com.bd.
+danacloudbd.wev.ovh.	1	IN	CNAME	danacloudbd.com.
+dewanmukto.wev.ovh.	1	IN	CNAME	8a85cea1-afe2-4aea-b499-a2dd22885966.id.repl.co.
+dma.wev.ovh.	1	IN	CNAME	dma.com.bd.
+dmistore.wev.ovh.	1	IN	CNAME	domains.gumroad.com.
+dmkto.wev.ovh.	1	IN	CNAME	dmkto.github.io.
+donehill.wev.ovh.	1	IN	CNAME	donehill.com.
+elite-bd.wev.ovh.	1	IN	CNAME	elite-bd.com.
+emcrpbd.wev.ovh.	1	IN	CNAME	emcrpbd.org.
+esoftbd.wev.ovh.	1	IN	CNAME	esoftbd.org.
+euroarteapparels.wev.ovh.	1	IN	CNAME	euroarteapparels.com.
+europcarbd.wev.ovh.	1	IN	CNAME	europcarbd.com.
+fees.wev.ovh.	1	IN	CNAME	fees.school.
+fortenox.wev.ovh.	1	IN	CNAME	9851ca82-35d2-4c55-b915-ea652312fe7b.id.repl.co.
+ftp.wev.ovh.	1	IN	CNAME	wev.ovh.
+gabdodd.wev.ovh.	1	IN	CNAME	c8b989ae-bb19-41e9-9811-747c321c5dfb.id.repl.co.
+hatbaz.wev.ovh.	1	IN	CNAME	hatbaz.com.
+hekky.wev.ovh.	1	IN	CNAME	hekky.dev.
+hkgindustries.wev.ovh.	1	IN	CNAME	hkgindustries.com.
+huggingface.wev.ovh.	1	IN	CNAME	huggingface.co.
+hyblocker.wev.ovh.	1	IN	CNAME	hyblocker.dev.
+intramex-bd.wev.ovh.	1	IN	CNAME	intramex-bd.com.
+inventorymaster.wev.ovh.	1	IN	CNAME	inventorymaster.top.
+izzankhan.wev.ovh.	1	IN	CNAME	izzankhan.com.
+jhuccpbd.wev.ovh.	1	IN	CNAME	jhuccpbd.com.
+kezmas.wev.ovh.	1	IN	CNAME	kezmas.com.bd.
+lenr.wev.ovh.	1	IN	CNAME	lenr.site.
+lessonsfrommukto.wev.ovh.	1	IN	CNAME	hashnode.network.
+link3.wev.ovh.	1	IN	CNAME	link3.net.
+lyrics.wev.ovh.	1	IN	CNAME	lyrics.ovh.
+madlbd.wev.ovh.	1	IN	CNAME	madlbd.com.
+maniksarker.wev.ovh.	1	IN	CNAME	maniksarker.com.
+mexpressbd.wev.ovh.	1	IN	CNAME	mexpressbd.com.
+mukto3d.wev.ovh.	1	IN	CNAME	03d3a0d2-f569-4217-b2ee-c9ac35f3e726.id.repl.co.
+muratec-bd.wev.ovh.	1	IN	CNAME	muratec-bd.com.
+nheards.wev.ovh.	1	IN	CNAME	nheards.com.
+noafood-bd.wev.ovh.	1	IN	CNAME	noafood-bd.com.
+nrbcbanksecurities.wev.ovh.	1	IN	CNAME	nrbcbanksecurities.com.
+ocusus.wev.ovh.	1	IN	CNAME	ocusus.com.
+omnisolutionsbd.wev.ovh.	1	IN	CNAME	omnisolutionsbd.com.
+orangesoftbd.wev.ovh.	1	IN	CNAME	orangesoftbd.com.
+profitnesstime.wev.ovh.	1	IN	CNAME	profitnesstime.xyz.
+protong.wev.ovh.	1	IN	CNAME	protong.site.i.ng.
+qfl.wev.ovh.	1	IN	CNAME	qfl.com.bd.
+reeee.wev.ovh.	1	IN	CNAME	reeee.ee.
+rupeetobtc.wev.ovh.	1	IN	CNAME	rupeetobtc.top.
+shoogarbd.wev.ovh.	1	IN	CNAME	shoogarbd.com.
+sonalilife.wev.ovh.	1	IN	CNAME	sonalilife.com.
+soundify.wev.ovh.	1	IN	CNAME	soundify.nl.
+starlightgroupbd.wev.ovh.	1	IN	CNAME	starlightgroupbd.com.
+synesisit.wev.ovh.	1	IN	CNAME	synesisit.com.bd.
+tblbd.wev.ovh.	1	IN	CNAME	tblbd.com.
+tbslbd.wev.ovh.	1	IN	CNAME	tbslbd.com.
+techgenius.wev.ovh.	1	IN	CNAME	techgenius.com.bd.
+tph1935.wev.ovh.	1	IN	CNAME	tph1935.org.bd.
+trustbanklimited.wev.ovh.	1	IN	CNAME	trustbanklimited.com.
+typenull.wev.ovh.	1	IN	CNAME	typenull.xyz.
+uddportal.wev.ovh.	1	IN	CNAME	uddportal.org.
+unico.wev.ovh.	1	IN	CNAME	2fe041ac-e4e3-4c81-8913-e0b401ace555.id.repl.co.
+upohargascorner.wev.ovh.	1	IN	CNAME	upohargascorner.com.
+uthsob.wev.ovh.	1	IN	CNAME	uthsob.me.
+uxtesting.wev.ovh.	1	IN	CNAME	uxtesting.net.
+venturecloud.wev.ovh.	1	IN	CNAME	venturecloud.net.
+www.wev.ovh.	1	IN	CNAME	gvanrossum.github.io.
+
+;; MX Records
+wev.ovh.	1	IN	MX	7 route3.mx.cloudflare.net.
+wev.ovh.	1	IN	MX	42 route2.mx.cloudflare.net.
+wev.ovh.	1	IN	MX	90 route1.mx.cloudflare.net.
+
+;; SRV Records
+_autodiscover._tcp.wev.ovh.	1	IN	SRV	0 0 443 mailconfig.ovh.net.
+_imaps._tcp.wev.ovh.	1	IN	SRV	0 0 993 ssl0.ovh.net.
+_submission._tcp.wev.ovh.	1	IN	SRV	0 0 465 ssl0.ovh.net.
+
+;; TXT Records
+cdn.wev.ovh.	1	IN	TXT	"replit-verify=1af883f9-8343-4153-995a-21ac036dcd1b"
+dewanmukto.wev.ovh.	1	IN	TXT	"replit-verify=8a85cea1-afe2-4aea-b499-a2dd22885966"
+_discord.wev.ovh.	1	IN	TXT	"dh=c6344113c1e32f7c619b2c39382abf96f3a6165a"
+_dmarc.wev.ovh.	1	IN	TXT	"v=DMARC1;  p=none; rua=mailto:921dff00fd2e49ecb31c48be0d53165f@dmarc-reports.cloudflare.net"
+fortenox.wev.ovh.	1	IN	TXT	"replit-verify=9851ca82-35d2-4c55-b915-ea652312fe7b"
+gabdodd.wev.ovh.	1	IN	TXT	"replit-verify=c8b989ae-bb19-41e9-9811-747c321c5dfb"
+mukto3d.wev.ovh.	1	IN	TXT	"replit-verify=03d3a0d2-f569-4217-b2ee-c9ac35f3e726"
+protong.wev.ovh.	1	IN	TXT	"replit-verify=8d309d21-ff63-41bb-9fbb-a1ad3165558a"
+unico.wev.ovh.	1	IN	TXT	"replit-verify=2fe041ac-e4e3-4c81-8913-e0b401ace555"
+wev.ovh.	1	IN	TXT	"replit-verify=2efdbb8d-a944-492e-b384-ef9e3c371c5c"
+wev.ovh.	1	IN	TXT	"v=spf1 include:_spf.mx.cloudflare.net ~all"
+wev.ovh.	1	IN	TXT	"1|www.wev.ovh"
+wev.ovh.	1	IN	TXT	"google-site-verification=YpwXOSOnvUPXw1Bw_UlJBDTtUo3lpMTuYh0XDeQ7zHQ"
